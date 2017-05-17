@@ -1,6 +1,6 @@
 ---
 title       : Creación de vectores
-description : En esta sección se aprenderá como construir vectores en R.
+description : En esta sección se aprenderá a construir objetos en R.
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
