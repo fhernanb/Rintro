@@ -75,7 +75,7 @@ futbol <- c(TRUE, FALSE, TRUE)
 ```{r}
 msg_undefined = "Revise si usó el nombre `futbol` para el vector."
 msg_incorrect = "Revise si ingresó bien los datos usando `TRUE` o `FALSE`."
-test_object("futbol", `FALSE```
+test_object("futbol",
             undefined_msg = msg_undefined,
             incorrect_msg = msg_incorrect) 
 
