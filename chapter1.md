@@ -42,11 +42,9 @@ test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 --- type:NormalExercise lang:r xp:100 skills:1 key:d9f8a52d8c
 ## Vector lógico
 
-In the previous exercise, you saw a dataset about movies. In this exercise, we'll have a look at yet another dataset about movies!
+Para crear un vector lógico se usa la función `c()` y dentro se colocan las respuestras `TRUE` o `FALSE` a la pregunta que se haya realizado.
 
-A dataset with a selection of movies, `movie_selection`, is available in the workspace.
-
-*** =instructions
+*** =instructiones
 - Check out the structure of `movie_selection`.
 - Select movies with a rating of 5 or higher. Assign the result to `good_movies`.
 - Use `plot()` to  plot `good_movies$Run` on the x-axis, `good_movies$Rating` on the y-axis and set `col` to `good_movies$Genre`.
