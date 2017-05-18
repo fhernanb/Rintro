@@ -3,3 +3,13 @@ description      : Curso introductorio para el manejo de objetos en R.
 university       : UNAL
 difficulty_level : 1
 time_needed      : 1 hour
+author_field: Nick Carchedi
+author_bio: "Prior to leading the Content Partnerships team at DataCamp, 
+  Nick earned his master's degree at Johns Hopkins Biostatistics and 
+  worked as a data scientist for McKinsey. Nick's passion for teaching
+  data science began in graduate school, where was heavily involved
+  in tutoring fellow students, developing the Johns Hopkins Data Science
+  Specialization, and building the swirl R package."
+
+
+  
