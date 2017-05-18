@@ -1,6 +1,6 @@
 ---
 title       : Creación de vectores
-description : En esta sección se aprenderá a construir objetos en R.
+description : En esta sección se aprenderá a construir vectores en R.
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
@@ -14,7 +14,7 @@ Ejemplo: a dos personas se les pregunta sus edades, la primera responde que tien
 *** =instructions
 Resuelva el siguiente problema:
 
-- A tres personas se les preguntó por el número de hermanos que tienen las respuestas fueron: dos, ninguno y 3.
+- A tres personas A, B y C se les preguntó por el número de hermanos que tienen y las respuestas fueron: dos, ninguno y 3 respectivamente.
 - Construya un vector llamado `nherm` que contenga las tres respuestas.
 
 *** =hint
