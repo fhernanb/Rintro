@@ -65,8 +65,7 @@ rm(Movies)
 
 *** =sample_code
 ```{r}
-# A continuacion el vector futbol
-
+# Escriba a continuacion el vector futbol
 
 ```
 
@@ -80,7 +79,7 @@ futbol <- c(TRUE, FALSE, TRUE)
 # SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
 
 msg_undefined = "Make sure to define a variable `x`."
-msg_incorrect = "Make sure that you assign the correct value to `x`."
+msg_incorrect = "Revise si usó el nombre `futbol` para el vector y si ingresó bien los datos."
 test_object("futbol", 
             undefined_msg = msg_undefined,
             incorrect_msg = msg_incorrect) 
