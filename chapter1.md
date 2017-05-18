@@ -79,17 +79,11 @@ futbol <- c(TRUE, FALSE, TRUE)
 ```{r}
 # SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
 
-test_function("str", args = "object",
-              not_called_msg = "You didn't call `str()`!",
-              incorrect_msg = "You didn't call `str(object = ...)` with the correct argument, `object`.")
-
-test_object("good_movies")
-
-test_function("plot", args = "x")
-test_function("plot", args = "y")
-test_function("plot", args = "col")
-
-test_error()
+msg_undefined = "Make sure to define a variable `x`."
+msg_incorrect = "Make sure that you assign the correct value to `x`."
+test_object("futbol", 
+            undefined_msg = msg_undefined,
+            incorrect_msg = msg_incorrect) 
 
 success_msg("Good work!")
 ```
