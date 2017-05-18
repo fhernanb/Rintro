@@ -60,6 +60,12 @@ fuma <- c(FALSE, TRUE)
 - Nombre al vector con `futbol`.
 - Use `TRUE` o `FALSE`.
 
+
+*** =pre_exercise_code
+```{r}
+
+```
+
 *** =sample_code
 ```{r}
 # Escriba a continuacion el vector futbol
