@@ -4,42 +4,53 @@ description : En esta sección se aprenderá a construir objetos en R.
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:80a4fdea25
-## A really bad movie
+--- type:NormalExercise lang:r xp:100 skills:1 key:d9f8a52d8c
+## Vector numérico
 
-Have a look at the plot that showed up in the viewer to the right. Which type of movie has the worst rating assigned to it?
+Para crear un vector numérico se usa la función `c()` y dentro se colocan los valores a almacenar.
+
+Ejemplo: a dos personas se les pregunta sus edades, la primera responde que tiene 18 años y la segunda 25 años. Para construir el vector `edad` con la información recolectada se usa el siguiente código `edad <- c(18, 25)`.
 
 *** =instructions
-- Adventure
-- Action
-- Animation
-- Comedy
+Resuelva el siguiente problema:
+
+- A tres personas se les preguntó por el número de hermanos que tienen las respuestas fueron: dos, ninguno y 3.
+- Construya un vector llamado `nherm` que contenga las tres respuestas.
 
 *** =hint
-Have a look at the plot. Which color does the point with the lowest rating have?
+- Use `c()` para crear el vector.
+- Nombre al vector con `nherm`.
+- Coloque dentro los valores.
+
 
 *** =pre_exercise_code
 ```{r}
-# The pre exercise code runs code to initialize the user's workspace.
-# You can use it to load packages, initialize datasets and draw a plot in the viewer
 
-movies <- read.csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
+```
 
-library(ggplot2)
+*** =sample_code
+```{r}
+# Escriba a continuacion el vector nherm con las respuestas
 
-ggplot(movies, aes(x = runtime, y = rating, col = genre)) + geom_point()
+```
+
+*** =solution
+```{r}
+nherm <- c(2, 0, 3)
 ```
 
 *** =sct
 ```{r}
-# SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
+msg_undefined = "Revise si usó el nombre `futbol` para el vector."
+msg_incorrect = "Revise si ingresó bien los datos usando `TRUE` o `FALSE`."
+test_object("nherm",
+            undefined_msg = msg_undefined,
+            incorrect_msg = msg_incorrect) 
 
-msg_bad <- "That is not correct!"
-msg_success <- "Exactly! There seems to be a very bad action movie in the dataset."
-test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
+success_msg("Excelenteee!")
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:d9f8a52d8c
+--- type:NormalExercise lang:r xp:100 skills:1 key:eea6792263
 ## Vector lógico
 
 Para crear un vector lógico se usa la función `c()` y dentro se colocan las respuestras `TRUE` o `FALSE` a la pregunta que se haya realizado.
@@ -65,7 +76,7 @@ Resuelva el siguiente problema:
 
 *** =sample_code
 ```{r}
-# Escriba a continuacion el vector futbol
+# Escriba a continuacion el vector futbol con las respuestas
 
 ```
 
