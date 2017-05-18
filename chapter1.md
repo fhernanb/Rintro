@@ -56,9 +56,9 @@ fuma <- c(FALSE, TRUE)
 - Construya un vector llamado `futbol` que contenga las tres respuestas.
 
 *** =hint
-- Use `str()` for the first instruction.
-- For the second instruction, you should use `...[movie_selection$Rating >= 5, ]`.
-- For the plot, use `plot(x = ..., y = ..., col = ...)`.
+- Use `c()` para crear el vector.
+- Nombre al vector con `futbol`.
+- Use `TRUE` o `FALSE`.
 
 *** =sample_code
 ```{r}
