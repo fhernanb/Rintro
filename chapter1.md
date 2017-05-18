@@ -53,16 +53,6 @@ Para crear un vector lógico se usa la función `c()` y dentro se colocan las re
 - For the second instruction, you should use `...[movie_selection$Rating >= 5, ]`.
 - For the plot, use `plot(x = ..., y = ..., col = ...)`.
 
-*** =pre_exercise_code
-```{r}
-# You can also prepare your dataset in a specific way in the pre exercise code
-load(url("https://s3.amazonaws.com/assets.datacamp.com/course/teach/movies.RData"))
-movie_selection <- Movies[Movies$Genre %in% c("action", "animated", "comedy"), c("Genre", "Rating", "Run")]
-
-# Clean up the environment
-rm(Movies)
-```
-
 *** =sample_code
 ```{r}
 # Escriba a continuacion el vector futbol
@@ -76,13 +66,11 @@ futbol <- c(TRUE, FALSE, TRUE)
 
 *** =sct
 ```{r}
-# SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
-
-msg_undefined = "Make sure to define a variable `x`."
-msg_incorrect = "Revise si usó el nombre `futbol` para el vector y si ingresó bien los datos."
-test_object("futbol", 
+msg_undefined = "Revise si usó el nombre `futbol` para el vector."
+msg_incorrect = "Revise si ingresó bien los datos usando `TRUE` o `FALSE`."
+test_object("futbol", `FALSE```
             undefined_msg = msg_undefined,
             incorrect_msg = msg_incorrect) 
 
-success_msg("Good work!")
+success_msg("Excelenteee!")
 ```
