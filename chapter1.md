@@ -52,6 +52,7 @@ fuma <- c(FALSE, TRUE)
 ```
 
 *** =instructions
+__Resuelva__
 - A tres personas se les preguntó si gustaban del fútbol, la primera y tercera respondieron que si mientras que la segunda dijo que no.
 - Construya un vector llamado `futbol` que contenga las tres respuestas.
 
