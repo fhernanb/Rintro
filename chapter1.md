@@ -46,7 +46,7 @@ Para crear un vector lógico se usa la función `c()` y dentro se colocan las re
 
 Ejemplo: a dos personas se les pregunta si fuman, la primera responde que no y la segunda que si. Para construir el vector `fuma` con la información recolectada se usa el siguiente código.
 
-```{r}
+```{r, eval=F}
 fuma <- c(FALSE, TRUE)
 
 ```
