@@ -14,3 +14,42 @@ datos <- data.frame(edades=c(18, 25),
                     nombres=c('David', 'John')
 ```
 
+*** =instructions
+Resuelva el siguiente problema:
+
+- A dos personas A y B se les preguntó por el número de hermanos que tienen y si les gusta el fútbol, las respuestas fueron: 3 hermanos y FALSE para A, 1 hermanos y TRUE para B.
+- Construya un marco de datos llamado `misdatos` que contenga las variables `nherm` y `Futbol`.
+
+*** =hint
+- Use `c()` para crear el vector.
+- Nombre al marco de datos con `misdatos`.
+- Coloque dentro los valores.
+
+
+*** =pre_exercise_code
+```{r}
+
+```
+
+*** =sample_code
+```{r}
+# Escriba a continuacion el vector nherm con las respuestas
+
+```
+
+*** =solution
+```{r}
+misdatos <- data.frame(nherm=c(3, 1),
+                       nombres=c(FALSE, TRUE)
+```
+
+*** =sct
+```{r}
+msg_undefined = "Revise si usó el nombre `misdatos` para el marco de datos."
+msg_incorrect = "Revise si ingresó bien los datos usando nombrando las variables `nherm` y `Futbol`."
+test_object("misdatos",
+            undefined_msg = msg_undefined,
+            incorrect_msg = msg_incorrect) 
+
+success_msg("Excelenteee!")
+```
