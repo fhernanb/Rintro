@@ -12,8 +12,8 @@ Ejemplo: a dos personas se les pregunta sus edades, la primera responde que tien
 *** =instructions
 Resuelva el siguiente problema:
 
-- A tres personas A, B y C se les preguntó por el número de hermanos que tienen y las respuestas fueron: dos, ninguno y 3 respectivamente.
-- Construya un vector llamado `nherm` que contenga las tres respuestas.
+- A tres personas A, B y C se les preguntó por el número de hermanos que tienen y las respuestas fueron: 2, 0 y 3 respectivamente.
+- Construya un vector llamado `nherm` que contenga las tres respuestas cuantitativas.
 
 *** =hint
 - Use `c()` para crear el vector.
@@ -53,7 +53,7 @@ success_msg("Excelenteee!")
 
 Para crear un vector con caracteres se usa la función `c()` y dentro se colocan los valores a almacenar separados por comas, cada elemento del vector debe estar dentro de comillas sencillas `' '` o dobles `" "`.
 
-Ejemplo: a dos personas se les pregunta sus nombres, la primera responde David y la segunda John. Para construir el vector `nombres` con la información recolectada se usa el siguiente código `edad <- c('David', 'John')`.
+Ejemplo: a dos personas se les pregunta sus nombres, la primera responde David y la segunda John. Para construir el vector `nombres` con la información recolectada se usa el siguiente código `nombres <- c('David', 'John')`.
 
 *** =instructions
 Resuelva el siguiente problema:
