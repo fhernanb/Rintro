@@ -49,9 +49,9 @@ success_msg("Excelenteee!")
 ```
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:13c7057274
-## Vector numérico
+## Vector con caracteres
 
-Para crear un vector con caracterres se usa la función `c()` y dentro se colocan los valores a almacenar separados por comas, cada elemento del vector debe estar dentro de comillas sencillas `' '` o dobles `" "`.
+Para crear un vector con caracteres se usa la función `c()` y dentro se colocan los valores a almacenar separados por comas, cada elemento del vector debe estar dentro de comillas sencillas `' '` o dobles `" "`.
 
 Ejemplo: a dos personas se les pregunta sus nombres, la primera responde David y la segunda John. Para construir el vector `nombres` con la información recolectada se usa el siguiente código `edad <- c('David', 'John')`.
 
