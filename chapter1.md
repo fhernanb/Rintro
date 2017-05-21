@@ -1,8 +1,6 @@
 ---
 title       : Creación de vectores
 description : En esta sección se aprenderá a construir vectores en R.
-attachments :
-  slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:d9f8a52d8c
 ## Vector numérico
