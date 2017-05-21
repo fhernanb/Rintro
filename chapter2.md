@@ -40,7 +40,7 @@ Resuelva el siguiente problema:
 *** =solution
 ```{r}
 misdatos <- data.frame(nherm=c(3, 1),
-                       nombres=c(FALSE, TRUE)
+                       nombres=c(FALSE, TRUE))
 ```
 
 *** =sct
