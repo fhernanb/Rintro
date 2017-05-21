@@ -3,9 +3,9 @@ title       : Creación de marco de datos
 description : En esta sección se aprenderá a construir marcos de datos en R.
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:d9f8a52d8c
-## Vector numérico
+## Marco de datos
 
-Para crear un vector numérico se usa la función `c()` y dentro se colocan los valores a almacenar.
+Para crear un marco de datos se usa la función `data.frame()` y dentro se colocan los vectores de la misma longitud a almacenar.
 
 Ejemplo: a dos personas se les pregunta sus edades, la primera responde que tiene 18 años y la segunda 25 años. Para construir el vector `edad` con la información recolectada se usa el siguiente código `edad <- c(18, 25)`.
 
