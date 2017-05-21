@@ -5,7 +5,7 @@ description : En esta sección se aprenderá a construir vectores en R.
 --- type:NormalExercise lang:r xp:100 skills:1 key:d9f8a52d8c
 ## Vector numérico
 
-Para crear un vector numérico se usa la función `c()` y dentro se colocan los valores a almacenar.
+Para crear un vector numérico se usa la función `c()` y dentro se colocan los valores a almacenar y separados por comas.
 
 Ejemplo: a dos personas se les pregunta sus edades, la primera responde que tiene 18 años y la segunda 25 años. Para construir el vector `edad` con la información recolectada se usa el siguiente código `edad <- c(18, 25)`.
 
@@ -48,12 +48,60 @@ test_object("nherm",
 success_msg("Excelenteee!")
 ```
 
+--- type:NormalExercise lang:r xp:100 skills:1 key:13c7057274
+## Vector numérico
+
+Para crear un vector con caracterres se usa la función `c()` y dentro se colocan los valores a almacenar separados por comas, cada elemento del vector debe estar dentro de comillas sencillas `' '` o dobles `" "`.
+
+Ejemplo: a dos personas se les pregunta sus nombres, la primera responde David y la segunda John. Para construir el vector `nombres` con la información recolectada se usa el siguiente código `edad <- c('David', 'John')`.
+
+*** =instructions
+Resuelva el siguiente problema:
+
+- A tres personas A, B y C se les preguntó por pasatiempo preferido y las respuestas fueron Leer, Caminar y Dormir.
+- Construya un vector llamado `pasatiempo` que contenga las tres respuestas tal y como están escritas.
+
+*** =hint
+- Use `c()` para crear el vector.
+- Nombre al vector con `pasatiempo`.
+- Coloque dentro las respuestas cada una dentro de comillas `' '`.
+
+
+*** =pre_exercise_code
+```{r}
+
+```
+
+*** =sample_code
+```{r}
+# Escriba a continuacion el vector pasatiempo con las respuestas
+
+```
+
+*** =solution
+```{r}
+pasatiempo <- c('Leer', 'Caminar', 'Dormir')
+```
+
+*** =sct
+```{r}
+msg_undefined = "Revise si usó el nombre `pasatiempo` para el vector."
+msg_incorrect = "Revise si ingresó bien los datos usando comillas `' '`."
+test_object("pasatiempo",
+            undefined_msg = msg_undefined,
+            incorrect_msg = msg_incorrect) 
+
+success_msg("Excelenteee!")
+```
+
 --- type:NormalExercise lang:r xp:100 skills:1 key:eea6792263
 ## Vector lógico
 
 Para crear un vector lógico se usa la función `c()` y dentro se colocan las respuestras `TRUE` o `FALSE` a la pregunta que se haya realizado.
 
 Ejemplo: a dos personas se les pregunta si fuman, la primera responde que no y la segunda que si. Para construir el vector `fuma` con la información recolectada se usa el siguiente código `fuma <- c(FALSE, TRUE)`.
+
+__Nota__: cuando el vector es lógico __NO__ se colocan dentro de comillas los valores `TRUE` y `FALSE`.
 
 *** =instructions
 Resuelva el siguiente problema:
