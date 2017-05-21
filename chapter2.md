@@ -17,7 +17,7 @@ datos <- data.frame(edad=c(18, 25),
 *** =instructions
 Resuelva el siguiente problema:
 
-- A dos personas A y B se les preguntó por el número de hermanos que tienen y si les gusta el fútbol, las respuestas fueron: 3 hermanos y FALSE para A, 1 hermanos y TRUE para B.
+- A dos personas A y B se les preguntó por el número de hermanos que tienen y si les gusta el fútbol, las respuestas fueron: 3 hermanos y FALSE para A, 1 hermano y TRUE para B.
 - Construya un marco de datos llamado `misdatos` que contenga las variables `nherm` y `futbol`.
 
 *** =hint
