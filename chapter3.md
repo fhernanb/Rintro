@@ -8,6 +8,28 @@ description : En esta sección se aprenderá a construir marcos de datos en R.
 *** =video_link
 //player.vimeo.com/video/220134953
 
+
+
+
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:7dcd1c9a6f
+## <<<New Exercise>>>
+
+*** =video_link
+//player.vimeo.com/video/220134953
+
+*** =instructions
+
+*** =hint
+
+*** =pre_exercise_code
+```{r}
+
+```
+
+*** =sct
+```{r}
+
+```
 --- type:NormalExercise lang:r xp:100 skills:1 key:d9f8a52d8c
 ## Marco de datos
 
