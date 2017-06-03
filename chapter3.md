@@ -5,6 +5,10 @@ description : En esta sección se aprenderá a construir marcos de datos en R.
 --- type:NormalExercise lang:r xp:100 skills:1 key:d9f8a52d8c
 ## Marco de datos
 
+*** =video_link
+//player.vimeo.com/video/220134953
+
+
 Para crear un marco de datos se usa la función `data.frame()` y dentro se colocan los vectores de la misma longitud con la información a almacenar.
 
 Ejemplo: a dos personas se les pregunta sus edades y nombres, la primera responde que tiene 18 años con nombre David, y la segunda 25 años con nombre John. Para construir el marco de datos de nombre `datos` y con las variables `edad` y `nombre` se usa el siguiente código:
