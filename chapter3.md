@@ -5,9 +5,12 @@ description : En esta sección se aprenderá a construir marcos de datos en R.
 --- type:NormalExercise lang:r xp:100 skills:1 key:d9f8a52d8c
 ## Marco de datos
 
+--- type:VideoExercise lang:r xp:50 skills:1 key:2732a01bb6
+## <<<¿Qué es un marco de datos?>>>
+
+
 *** =video_link
 //player.vimeo.com/video/220134953
-
 
 Para crear un marco de datos se usa la función `data.frame()` y dentro se colocan los vectores de la misma longitud con la información a almacenar.
 
