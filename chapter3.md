@@ -41,7 +41,7 @@ mat1 <- matrix(data=c(4, 3, 6, 0, 8, 9), ncol=2, byrow=FALSE)
 *** =sct
 ```{r}
 msg_undefined = "Revise si usó el nombre `mat1` para la matriz."
-msg_incorrect = "Revise si ingresó colocó `FALSE` en el parámetro `byrow`."
+msg_incorrect = "Revise si colocó `FALSE` en el parámetro `byrow`."
 test_object("mat1",
             undefined_msg = msg_undefined,
             incorrect_msg = msg_incorrect) 
