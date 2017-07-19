@@ -8,6 +8,26 @@ description : En esta sección se aprenderá a construir marcos de datos en R.
 *** =video_link
 //player.vimeo.com/video/220134953
 
+--- type:MultipleChoiceExercise lang:r xp:100 skills:1 key:31831a54be
+## Pregunta sobre marcos de datos
+
+¿Cuál de las siguientes *NO* es una característica de los marcos de datos?
+
+*** =instructions
+- Se pueden almacenar vectores de diferente tipo.
+- Los vectores que lo forman deben tener la misma longitud.
+- Se les conoce como _data frame_.
+- Los vectores deben ser siempre numéricos.
+
+*** =sct
+```{r}
+# SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
+
+msg_bad <- "Incorrecto, revise nuevamente el video."
+msg_success <- "Excelente, muy bien."
+test_mc(correct = 4, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
+```
+
 --- type:NormalExercise lang:r xp:100 skills:1 key:d9f8a52d8c
 ## Marco de datos
 
@@ -39,7 +59,7 @@ Resuelva el siguiente problema:
 
 *** =sample_code
 ```{r}
-# Escriba a continuacion el vector nherm con las respuestas
+# Escriba a continuacion el código para crear el marco de datos misdatos
 
 ```
 
