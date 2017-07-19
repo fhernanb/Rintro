@@ -3,7 +3,7 @@ title       : Creación de vectores
 description : En esta sección se aprenderá a construir vectores en R.
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:d9f8a52d8c
-## Vector numérico
+## Vector numérico o cuantitativo
 
 Para crear un vector numérico se usa la función `c()` y dentro se colocan los valores a almacenar y separados por comas.
 
@@ -49,7 +49,7 @@ success_msg("Excelenteee!")
 ```
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:13c7057274
-## Vector con caracteres
+## Vector con caracteres o cualitativo
 
 Para crear un vector con caracteres se usa la función `c()` y dentro se colocan los valores a almacenar separados por comas, cada elemento del vector debe estar dentro de comillas sencillas `' '` o dobles `" "`.
 
