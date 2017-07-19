@@ -58,10 +58,15 @@ Ejemplo: para construir una matriz llamada `mat3` de 2 filas y 2 columnas tal qu
 
 `mat3 <- matrix(data=c(FALSE, FALSE, TRUE, TRUE), ncol=2, byrow=FALSE)`
 
+```{r}
+mat3 <- matrix(data=c(FALSE, FALSE, TRUE, TRUE), ncol=2, byrow=FALSE)
+mat3
+```
+
 *** =instructions
 Resuelva el siguiente problema:
 
-- Construya una matriz llamada `mat1` de 3 filas y 2 columnas con los números 4, 3, 6, 0, 8, 9 e ingresando la información por columnas.
+- Construya una matriz llamada `mat4` de 2 filas y 2 columnas de tal manera que la primera fila contenga `TRUE` y la segunda fila sean `FALSE`.
 
 *** =hint
 - Coloque los valores 4, 3, 6, 0, 8, 9 dentro de `c()` para crear la matriz.
