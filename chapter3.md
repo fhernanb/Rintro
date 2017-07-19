@@ -58,15 +58,10 @@ Ejemplo: para construir una matriz llamada `mat3` de 2 filas y 2 columnas tal qu
 
 `mat3 <- matrix(data=c(FALSE, FALSE, TRUE, TRUE), ncol=2, byrow=FALSE)`
 
-```{r}
-mat3 <- matrix(data=c(FALSE, FALSE, TRUE, TRUE), ncol=2, byrow=FALSE)
-mat3
-```
-
 *** =instructions
 Resuelva el siguiente problema:
 
-- Construya una matriz llamada `mat4` de 2 filas y 2 columnas de tal manera que la primera fila contenga `TRUE` y la segunda fila sean `FALSE`.
+- Construya una matriz llamada `mat4` de 2 filas y 2 columnas de tal manera que la primera fila contenga dos valores `TRUE` y la segunda fila contenga dos valores `FALSE`.
 
 *** =hint
 - Coloque los valores 4, 3, 6, 0, 8, 9 dentro de `c()` para crear la matriz.
@@ -87,16 +82,17 @@ Resuelva el siguiente problema:
 
 *** =solution
 ```{r}
-mat1 <- matrix(data=c(4, 3, 6, 0, 8, 9), ncol=2, byrow=FALSE)
+mat4 <- matrix(data=c(TRUE, TRUE, FALSE, FALSE), ncol=2, byrow=TRUE)
 ```
 
 *** =sct
 ```{r}
-msg_undefined = "Revise si usó el nombre `mat1` para la matriz."
-msg_incorrect = "Revise si colocó `FALSE` en el parámetro `byrow`."
-test_object("mat1",
+msg_undefined = "Revise si usó el nombre `mat4` para la matriz."
+msg_incorrect = "Revise si colocó `TRUE` en el parámetro `byrow`."
+test_object("mat4",
             undefined_msg = msg_undefined,
             incorrect_msg = msg_incorrect) 
 
 success_msg("Excelenteee!")
 ```
+

@@ -141,3 +141,25 @@ test_object("futbol",
 
 success_msg("Excelenteee!")
 ```
+
+--- type:MultipleChoiceExercise lang:r xp:100 skills:1 key:31831a54be
+## Clases de vectores
+
+Elija la respuesta correcta a la siguiente pregunta.
+
+¿Cuáles son los tres tipos de vectores que hemos estudiado aquí?
+
+*** =instructions
+- Numéricos, positivos, de nombres.
+- Lógicos, de caracteres y numéricos.
+- Lógicos, letras y enteros.
+- De caracteres, logicos y figuras.
+
+*** =sct
+```{r}
+# SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
+
+msg_bad <- "Incorrecto, revise bien."
+msg_success <- "Excelente, muy bien."
+test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
+```
