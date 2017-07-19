@@ -6,4 +6,5 @@ description : Insert the chapter description here
 ## ¿Qué es una lista?
 
 *** =video_link
-//https://vimeo.com/224326254
+//player.vimeo.com/video/224326254
+
