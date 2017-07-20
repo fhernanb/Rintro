@@ -147,6 +147,7 @@ success_msg("Excelenteee!")
 
 Elija la respuesta correcta a la siguiente pregunta.
 
+__Pregunta__:
 ¿Cuáles son los tres tipos de vectores que hemos estudiado aquí?
 
 *** =instructions
