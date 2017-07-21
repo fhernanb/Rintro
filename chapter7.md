@@ -83,6 +83,7 @@ pasaje <- 2000
 num_pasajes <- 5
 total <- pasaje * num_pasajes
 total
+10000
 ```
 
 
