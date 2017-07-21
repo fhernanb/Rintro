@@ -51,7 +51,7 @@ Resuelva el siguiente problema:
 *** =sample_code
 ```{r}
 # Substituya los _____ con el valor a almacenar en precioeuro
-precioeuro <- _____
+precioeuro <- 
 ```
 
 *** =solution
