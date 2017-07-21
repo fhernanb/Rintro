@@ -50,8 +50,9 @@ Resuelva el siguiente problema:
 
 *** =sample_code
 ```{r}
-# Substituya las líneas bajas _____ con el valor a almacenar en precioeuro y luego de click en submit
-precioeuro <- 
+# Substituya las líneas bajas _____ con el valor a
+# almacenar en precioeuro y luego de click en Submit Answer
+precioeuro <- _____
 ```
 
 *** =solution
