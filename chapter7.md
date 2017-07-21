@@ -50,7 +50,7 @@ Resuelva el siguiente problema:
 
 *** =sample_code
 ```{r}
-# Substituya los _____ con el valor a almacenar en precioeuro
+# Substituya las líneas bajas _____ con el valor a almacenar en precioeuro y luego de click en submit
 precioeuro <- 
 ```
 
