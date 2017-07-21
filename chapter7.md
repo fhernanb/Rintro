@@ -27,7 +27,7 @@ test_mc(correct = 3, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 ```
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:d9f8a52d8c
-## Símbolos de asignación
+## Símbolo de asignación y creación de variables
 
 Para asignar el valor a una variable se usa el símbolo `<-`.
 
@@ -71,3 +71,55 @@ test_object("precioeuro",
 success_msg("Excelenteee!")
 ```
 
+--- type:NormalExercise lang:r xp:100 skills:1 key:ddd977c426
+## Operaciones con variables
+
+Para realizar las operaciones de suma, resta, multiplicación y división entre variables se usan los siguientes operadores respectivamente: `+`,  `-`, `*`, y `/`.
+
+Ejemplo: para almacenar el valor 2300 en la variable `preciodolar` se usa el siguiente código `preciodolar <- 2300`.
+
+```{r}
+pasaje <- 2000
+num_pasajes <- 5
+total <- pasaje * num_pasajes
+total
+```
+
+
+*** =instructions
+Resuelva el siguiente problema:
+
+- Construya la variable `precioeuro` y asígnele el valor de 2500.
+
+*** =hint
+- Use `c()` para crear el vector.
+- Nombre al vector con `nherm`.
+- Coloque dentro los valores.
+
+*** =pre_exercise_code
+```{r}
+
+```
+
+*** =sample_code
+```{r}
+# Substituya las líneas bajas _____ con el valor a
+# almacenar en precioeuro y luego de click en Submit Answer
+precioeuro <- _____
+```
+
+*** =solution
+```{r}
+precioeuro <- 2500
+```
+
+*** =sct
+```{r}
+msg_undefined = "Revise si usó el nombre `precioeuro` para el vector."
+msg_incorrect = "Revise si ingresó el número 2500."
+test_object("precioeuro",
+            undefined_msg = msg_undefined,
+            incorrect_msg = msg_incorrect) 
+
+success_msg("Excelenteee!")
+```
