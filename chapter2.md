@@ -1,160 +1,22 @@
 ---
-title       : Creación de vectores
-description : En esta sección se aprenderá a construir vectores en R.
-
---- type:NormalExercise lang:r xp:100 skills:1 key:d9f8a52d8c
-## Vector numérico o cuantitativo
-
-Para crear un vector numérico se usa la función `c()` y dentro se colocan los valores a almacenar y separados por comas.
-
-__Ejemplo:__ A dos personas se les pregunta sus edades, la primera responde que tiene 18 años y la segunda 25 años. Para construir el vector `edad` con la información recolectada se usa el siguiente código `edad <- c(18, 25)`.
-
-*** =instructions
-Resuelva el siguiente problema:
-
-- A tres personas A, B y C se les preguntó por el número de hermanos que tienen y las respuestas fueron: 2, 0 y 3 respectivamente.
-- Construya un vector llamado `nherm` que contenga las tres respuestas cuantitativas.
-
-*** =hint
-- Use `c()` para crear el vector.
-- Nombre al vector con `nherm`.
-- Coloque dentro los valores.
-
-
-*** =pre_exercise_code
-```{r}
-
-```
-
-*** =sample_code
-```{r}
-# Substituya las líneas bajas ___ con el código correcto para completar el ejercicio
-nher <- c(_, _, _)
-```
-
-*** =solution
-```{r}
-nherm <- c(2, 0, 3)
-```
-
-*** =sct
-```{r}
-msg_undefined = "Revise si usó el nombre `futbol` para el vector."
-msg_incorrect = "Revise si ingresó bien los datos usando `TRUE` o `FALSE`."
-test_object("nherm",
-            undefined_msg = msg_undefined,
-            incorrect_msg = msg_incorrect) 
-
-success_msg("Excelenteee!")
-```
-
---- type:NormalExercise lang:r xp:100 skills:1 key:13c7057274
-## Vector con caracteres o cualitativo
-
-Para crear un vector con caracteres se usa la función `c()` y dentro se colocan los valores a almacenar separados por comas, cada elemento del vector debe estar dentro de comillas sencillas `' '` o dobles `" "`.
-
-__Ejemplo:__ A dos personas se les pregunta sus nombres, la primera responde David y la segunda John. Para construir el vector `nombres` con la información recolectada se usa el siguiente código `nombres <- c('David', 'John')`.
-
-*** =instructions
-Resuelva el siguiente problema:
-
-- A tres personas A, B y C se les preguntó por pasatiempo preferido y las respuestas fueron Leer, Caminar y Dormir.
-- Construya un vector llamado `pasatiempo` que contenga las tres respuestas tal y como están escritas.
-
-*** =hint
-- Use `c()` para crear el vector.
-- Nombre al vector con `pasatiempo`.
-- Coloque dentro las respuestas cada una dentro de comillas `' '`.
-
-
-*** =pre_exercise_code
-```{r}
-
-```
-
-*** =sample_code
-```{r}
-# Escriba a continuacion el vector pasatiempo con las respuestas
-pasatiempo <- c(   ,    ,    )
-```
-
-*** =solution
-```{r}
-pasatiempo <- c('Leer', 'Caminar', 'Dormir')
-```
-
-*** =sct
-```{r}
-msg_undefined = "Revise si usó el nombre `pasatiempo` para el vector."
-msg_incorrect = "Revise si ingresó bien los datos usando comillas `' '`."
-test_object("pasatiempo",
-            undefined_msg = msg_undefined,
-            incorrect_msg = msg_incorrect) 
-
-success_msg("Excelenteee!")
-```
-
---- type:NormalExercise lang:r xp:100 skills:1 key:eea6792263
-## Vector lógico
-
-Para crear un vector lógico se usa la función `c()` y dentro se colocan las respuestras `TRUE` o `FALSE` a la pregunta que se haya realizado.
-
-__Ejemplo:__ A dos personas se les pregunta si fuman, la primera responde que no y la segunda que si. Para construir el vector `fuma` con la información recolectada se usa el siguiente código `fuma <- c(FALSE, TRUE)`.
-
-__Nota__: cuando el vector es lógico __NO__ se colocan dentro de comillas los valores `TRUE` y `FALSE`.
-
-*** =instructions
-Resuelva el siguiente problema:
-
-- A tres personas se les preguntó si gustaban del fútbol, la primera y tercera respondieron que __si__ mientras que la segunda dijo que __no__.
-- Construya un vector llamado `futbol` que contenga las tres respuestas.
-
-*** =hint
-- Use `c()` para crear el vector.
-- Nombre al vector con `futbol`.
-- Use `TRUE` o `FALSE`.
-
-
-*** =pre_exercise_code
-```{r}
-
-```
-
-*** =sample_code
-```{r}
-# Escriba a continuacion el vector futbol con las respuestas
-
-```
-
-*** =solution
-```{r}
-futbol <- c(TRUE, FALSE, TRUE)
-```
-
-*** =sct
-```{r}
-msg_undefined = "Revise si usó el nombre `futbol` para el vector."
-msg_incorrect = "Revise si ingresó bien los datos usando `TRUE` o `FALSE`."
-test_object("futbol",
-            undefined_msg = msg_undefined,
-            incorrect_msg = msg_incorrect) 
-
-success_msg("Excelenteee!")
-```
+title       : Operaciones básicas y asignación
+description : En esta sección usted aprenderá a realizar operaciones aritméticas con R.
 
 --- type:MultipleChoiceExercise lang:r xp:100 skills:1 key:31831a54be
-## Clases de vectores
+## Suma, resta, multiplicación y división
 
-Elija la respuesta correcta a la siguiente pregunta.
+Para realizar las operaciones de suma, resta, multiplicación y división se usan los siguientes operadores respectivamente: `+`,  `-`, `*`, y `/`.
 
-__Pregunta__:
-¿Cuáles son los tres tipos de vectores que hemos estudiado aquí?
+__Ejemplo:__ Para sumar los números 8 y 4 se usa el código `8 + 4` y para dividir 10 entre 2 se usa el código `10 / 2`.
+
+
+__Pregunta__: El código correcto para restarle 10 al número 12.56 y para multiplicar los números 10 y 8.5 es:
 
 *** =instructions
-- Numéricos, positivos, de nombres.
-- Lógicos, de caracteres y numéricos.
-- Lógicos, letras y enteros.
-- De caracteres, logicos y figuras.
+- `12.56 + 10` y `10 + 8.5`.
+- `12.56 * 10` y `10 - 8.5`.
+- `12.56 - 10` y `10 * 8.5`.
+- `12.56 / 10` y `10 / 8.5`.
 
 *** =sct
 ```{r}
@@ -162,5 +24,159 @@ __Pregunta__:
 
 msg_bad <- "Incorrecto, revise bien."
 msg_success <- "Excelente, muy bien."
-test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
+test_mc(correct = 3, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
+```
+
+--- type:NormalExercise lang:r xp:100 skills:1 key:d9f8a52d8c
+## Símbolo de asignación y creación de variables
+
+Para asignar el valor a una variable se usa el símbolo `<-`.
+
+__Ejemplo:__ Para almacenar el valor 2300 en la variable `preciodolar` se usa el siguiente código `preciodolar <- 2300`.
+
+*** =instructions
+Resuelva el siguiente problema:
+
+- Construya la variable `precioeuro` y asígnele el valor de 2500.
+
+*** =hint
+- Use `c()` para crear el vector.
+- Nombre al vector con `nherm`.
+- Coloque dentro los valores.
+
+*** =pre_exercise_code
+```{r}
+
+```
+
+*** =sample_code
+```{r}
+# Substituya las líneas bajas _____ con el código correcto para completar el ejercicio
+precioeuro <- _____
+```
+
+*** =solution
+```{r}
+precioeuro <- 2500
+```
+
+*** =sct
+```{r}
+msg_undefined = "Revise si usó el nombre `precioeuro` para el vector."
+msg_incorrect = "Revise si ingresó el número 2500."
+test_object("precioeuro",
+            undefined_msg = msg_undefined,
+            incorrect_msg = msg_incorrect) 
+
+success_msg("Excelenteee!")
+```
+
+--- type:NormalExercise lang:r xp:100 skills:1 key:ddd977c426
+## Operaciones con variables parte 1
+
+Para realizar las operaciones de suma, resta, multiplicación y división entre variables se usan los siguientes operadores respectivamente: `+`,  `-`, `*`, y `/`.
+
+__Ejemplo:__ Crear la variable `pasaje` y almacenar allí el valor 2000, crear la variable `num_pasajes` y almacenar el valor de 5, después crear la variable `total` y que contenga el resultado de multiplicar `pasaje` por `num_pasajes`, por último imprimir por pantalla el resultado almacenado en `total`. El código necesario para realizar lo solicitado es:
+
+```{r}
+pasaje <- 2000
+num_pasajes <- 5
+total <- pasaje * num_pasajes
+total
+## 10000
+```
+
+
+*** =instructions
+Resuelva el siguiente problema:
+
+- Construya la variable `nhombre` con un valor de 6 y la variable `nmujer` con valor de 4. Construya la variable `nper` como la suma de `nhombre` y `nmujer`.
+
+*** =hint
+- Nombre los objetos con `nhombre`, `nmujer` y `nper`.
+- Coloque dentro los valores.
+
+*** =pre_exercise_code
+```{r}
+
+```
+
+*** =sample_code
+```{r}
+# Complete el código para realizar lo solicitado
+nhombre <- ____
+nmujer <- ____
+____ <- ____ + ____
+```
+
+*** =solution
+```{r}
+nhombre <- 6
+nmujer <- 4
+nper <- nhombre + nmujer
+```
+
+*** =sct
+```{r}
+msg_undefined = "Debe crear tres objetos."
+msg_incorrect = "El objeto nper es la suma de los otros dos objetos."
+test_object("nper",
+            undefined_msg = msg_undefined,
+            incorrect_msg = msg_incorrect) 
+
+success_msg("Excelenteee!")
+```
+
+--- type:NormalExercise lang:r xp:100 skills:1 key:79fb1c8c8a
+## Operaciones con variables parte 2
+
+__Ejemplo:__ Una hamburguesa cuesta 5 dólares y un refresco cuesta 2 dólares. Construya la variable `nhamb` con el valor de 4 y la variable `nrefre` con el valor de 6, luego construya la variable `total` que contenga el costo total de las hamburguesas y refrescos. El código necesario para realizar lo solicitado es:
+
+```{r}
+nhamb <- 4
+nrefre <- 6
+total <- nhamb * 5 + nrefre * 2
+total
+## 32
+```
+
+
+*** =instructions
+Resuelva el siguiente problema:
+
+- Cada pasaje de adulto cuesta 0.5 dólares y cada pasaje de niño cuesta 0.15 dólares. Construya las variables `nadul <- 10` y `nnino <- 5`, luego construya la variable `total` de manera que corresponda al valor total de los pasajes. 
+
+*** =hint
+- Nombre los objetos con `nadul`, `nnino` y `total`.
+- Coloque dentro los valores.
+
+*** =pre_exercise_code
+```{r}
+
+```
+
+*** =sample_code
+```{r}
+# Complete el código para realizar lo solicitado
+nadul <- ____
+nnino <- ____
+tot__ <- ____ + ____
+```
+
+*** =solution
+```{r}
+nadul <- 10
+nnino <- 5
+total <- 0.5 * nadul + 0.15 * nnino
+```
+
+*** =sct
+```{r}
+msg_undefined = "Debe crear tres objetos."
+msg_incorrect = "El objeto total es la suma de los otros dos objetos."
+test_object("total",
+            undefined_msg = msg_undefined,
+            incorrect_msg = msg_incorrect) 
+
+success_msg("Excelenteee!")
 ```
