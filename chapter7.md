@@ -72,7 +72,7 @@ success_msg("Excelenteee!")
 ```
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:ddd977c426
-## Operaciones con variables
+## Operaciones con variables parte 1
 
 Para realizar las operaciones de suma, resta, multiplicación y división entre variables se usan los siguientes operadores respectivamente: `+`,  `-`, `*`, y `/`.
 
@@ -84,6 +84,60 @@ num_pasajes <- 5
 total <- pasaje * num_pasajes
 total
 10000
+```
+
+
+*** =instructions
+Resuelva el siguiente problema:
+
+- Construya la variable `nhombre` con un valor de 6 y la variable `nmujer` con valor de 4. Construya la variable `nper` como la suma de `nhombre` y `nmujer`.
+
+*** =hint
+- Nombre los objetos con `nhombre`, `nmujer` y `nper`.
+- Coloque dentro los valores.
+
+*** =pre_exercise_code
+```{r}
+
+```
+
+*** =sample_code
+```{r}
+# Complete el código para realizar lo solicitado
+nhombre <- ____
+nmujer <- ____
+____ <- ____ + ____
+```
+
+*** =solution
+```{r}
+nhombre <- 6
+nmujer <- 4
+nper <- nhombre + nmujer
+```
+
+*** =sct
+```{r}
+msg_undefined = "Debe crear tres objetos."
+msg_incorrect = "El objeto nper es la suma de los otros dos objetos."
+test_object("nper",
+            undefined_msg = msg_undefined,
+            incorrect_msg = msg_incorrect) 
+
+success_msg("Excelenteee!")
+```
+
+--- type:NormalExercise lang:r xp:100 skills:1 key:79fb1c8c8a
+## Operaciones con variables parte 2
+
+Ejemplo: una hamburguesa cuesta 5$ y un refresco cuesta 2$. Construya la variable `nhamb` con el valor de 4 y la variable `nrefre` con el valor de 6, luego construya la variable `total` que contenga el costo total de las hamburguesas y refrescos.
+
+```{r}
+nhamb <- 4
+nrefre <- 6
+total <- nhamb * 5 + nrefre * 2
+total
+32
 ```
 
 
