@@ -9,6 +9,7 @@ Para realizar las operaciones de suma, resta, multiplicación y división se usa
 
 Ejemplo: para sumar los números 8 y 4 se usa el código `8 + 4` y para dividir 10 entre 2 se usa el código `10 / 2`.
 
+
 __Pregunta__: El código correcto para restarle 10 al número 12.56 y para multiplicar los números 10 y 8.5 es:
 
 *** =instructions
@@ -76,7 +77,7 @@ success_msg("Excelenteee!")
 
 Para realizar las operaciones de suma, resta, multiplicación y división entre variables se usan los siguientes operadores respectivamente: `+`,  `-`, `*`, y `/`.
 
-Ejemplo: para almacenar el valor 2300 en la variable `preciodolar` se usa el siguiente código `preciodolar <- 2300`.
+Ejemplo: crear la variable `pasaje` y almacenar allí el valor 2000, crear la variable `num_pasajes` y almacenar el valor de 5, después crear la variable `total` y que contenga el resultado de multiplicar `pasaje` por `num_pasajes`, por último imprimir por pantalla el resultado almacenado en `total`. El código necesario para realizar lo solicitado es:
 
 ```{r}
 pasaje <- 2000
@@ -90,7 +91,7 @@ total
 *** =instructions
 Resuelva el siguiente problema:
 
-- Construya la variable `precioeuro` y asígnele el valor de 2500.
+- Construya la variable ``
 
 *** =hint
 - Use `c()` para crear el vector.
