@@ -12,9 +12,9 @@ __Ejemplo:__ Para construir una matriz llamada `mat1` de 2 filas y 2 columnas y 
 ```{r}
 mat1 <- matrix(data=c(4, 3, -5, 6), ncol=2, byrow=TRUE)
 mat1
-     [,1] [,2]
-[1,]    4    3
-[2,]   -5    6
+##      [,1] [,2]
+## [1,]    4    3
+## [2,]   -5    6
 ```
 
 *** =instructions
@@ -35,8 +35,8 @@ Resuelva el siguiente problema:
 
 *** =sample_code
 ```{r}
-# Escriba a continuacion la matriz mat1 con los valores 4, 3, 6, 0, 8, 9
-
+# Escriba a continuacion la matriz mat2 con los valores 4, 3, 6, 0, 8, 9
+mat2 <- ___________
 ```
 
 *** =solution
@@ -62,7 +62,13 @@ Para crear una matriz con valores lógicos se usa la misma función `matrix` exp
 
 __Ejemplo:__ Para construir una matriz llamada `mat3` de 2 filas y 2 columnas tal que los elementos de la primera columna sean `FALSE` y los restantes sean `TRUE` se utiliza el siguiente código.
 
-`mat3 <- matrix(data=c(FALSE, FALSE, TRUE, TRUE), ncol=2, byrow=FALSE)`
+```{r}
+mat3 <- matrix(data=c(FALSE, FALSE, TRUE, TRUE), ncol=2, byrow=FALSE)
+mat3
+##       [,1] [,2]
+## [1,] FALSE TRUE
+## [2,] FALSE TRUE
+```
 
 *** =instructions
 Resuelva el siguiente problema:

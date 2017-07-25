@@ -83,7 +83,7 @@ pasaje <- 2000
 num_pasajes <- 5
 total <- pasaje * num_pasajes
 total
-10000
+## 10000
 ```
 
 
@@ -137,7 +137,7 @@ nhamb <- 4
 nrefre <- 6
 total <- nhamb * 5 + nrefre * 2
 total
-32
+## 32
 ```
 
 

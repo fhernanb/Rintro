@@ -33,11 +33,15 @@ test_mc(correct = 4, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 
 Para crear un marco de datos se usa la función `data.frame()` y dentro se colocan los vectores de la misma longitud con la información a almacenar.
 
-Ejemplo: a dos personas se les pregunta sus edades y nombres, la primera responde que tiene 18 años con nombre David, y la segunda 25 años con nombre John. Para construir el marco de datos de nombre `datos` y con las variables `edad` y `nombre` se usa el siguiente código:
+__Ejemplo:__ A dos personas se les pregunta sus edades y nombres, la primera responde que tiene 18 años con nombre David, y la segunda 25 años con nombre John. Para construir el marco de datos de nombre `datos` y con las variables `edad` y `nombre` se usa el siguiente código:
 
 ```{r, eval=F}
 datos <- data.frame(edad=c(18, 25),
                     nombre=c('David', 'John'))
+datos
+##   edad nombre
+## 1   18  David
+## 2   25   John
 ```
 
 *** =instructions
@@ -60,7 +64,7 @@ Resuelva el siguiente problema:
 *** =sample_code
 ```{r}
 # Escriba a continuacion el código para crear el marco de datos misdatos
-
+misdatos <- data.frame(____)
 ```
 
 *** =solution
