@@ -7,7 +7,7 @@ description : En esta sección usted aprenderá a realizar operaciones aritméti
 
 Para realizar las operaciones de suma, resta, multiplicación y división se usan los siguientes operadores respectivamente: `+`,  `-`, `*`, y `/`.
 
-Ejemplo: para sumar los números 8 y 4 se usa el código `8 + 4` y para dividir 10 entre 2 se usa el código `10 / 2`.
+__Ejemplo:__ Para sumar los números 8 y 4 se usa el código `8 + 4` y para dividir 10 entre 2 se usa el código `10 / 2`.
 
 
 __Pregunta__: El código correcto para restarle 10 al número 12.56 y para multiplicar los números 10 y 8.5 es:
@@ -51,7 +51,7 @@ Resuelva el siguiente problema:
 
 *** =sample_code
 ```{r}
-# Substituya las líneas bajas _____ con el valor a almacenar
+# Substituya las líneas bajas _____ con el código correcto para completar el ejercicio
 precioeuro <- _____
 ```
 
