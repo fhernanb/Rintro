@@ -32,7 +32,7 @@ test_mc(correct = 3, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 
 Para asignar el valor a una variable se usa el símbolo `<-`.
 
-Ejemplo: para almacenar el valor 2300 en la variable `preciodolar` se usa el siguiente código `preciodolar <- 2300`.
+__Ejemplo:__ Para almacenar el valor 2300 en la variable `preciodolar` se usa el siguiente código `preciodolar <- 2300`.
 
 *** =instructions
 Resuelva el siguiente problema:
@@ -76,7 +76,7 @@ success_msg("Excelenteee!")
 
 Para realizar las operaciones de suma, resta, multiplicación y división entre variables se usan los siguientes operadores respectivamente: `+`,  `-`, `*`, y `/`.
 
-Ejemplo: crear la variable `pasaje` y almacenar allí el valor 2000, crear la variable `num_pasajes` y almacenar el valor de 5, después crear la variable `total` y que contenga el resultado de multiplicar `pasaje` por `num_pasajes`, por último imprimir por pantalla el resultado almacenado en `total`. El código necesario para realizar lo solicitado es:
+__Ejemplo:__ Crear la variable `pasaje` y almacenar allí el valor 2000, crear la variable `num_pasajes` y almacenar el valor de 5, después crear la variable `total` y que contenga el resultado de multiplicar `pasaje` por `num_pasajes`, por último imprimir por pantalla el resultado almacenado en `total`. El código necesario para realizar lo solicitado es:
 
 ```{r}
 pasaje <- 2000
@@ -130,7 +130,7 @@ success_msg("Excelenteee!")
 --- type:NormalExercise lang:r xp:100 skills:1 key:79fb1c8c8a
 ## Operaciones con variables parte 2
 
-Ejemplo: una hamburguesa cuesta 5$ y un refresco cuesta 2$. Construya la variable `nhamb` con el valor de 4 y la variable `nrefre` con el valor de 6, luego construya la variable `total` que contenga el costo total de las hamburguesas y refrescos.
+__Ejemplo:__ Una hamburguesa cuesta 5 dólares y un refresco cuesta 2 dólares. Construya la variable `nhamb` con el valor de 4 y la variable `nrefre` con el valor de 6, luego construya la variable `total` que contenga el costo total de las hamburguesas y refrescos. El código necesario para realizar lo solicitado es:
 
 ```{r}
 nhamb <- 4
@@ -144,10 +144,10 @@ total
 *** =instructions
 Resuelva el siguiente problema:
 
-- Construya la variable `nhombre` con un valor de 6 y la variable `nmujer` con valor de 4. Construya la variable `nper` como la suma de `nhombre` y `nmujer`.
+- Cada pasaje de adulto cuesta 0.5 dólares y cada pasaje de niño cuesta 0.15 dólares. Construya las variables `nadul <- 10` y `nnino <- 5`, luego construya la variable `total` de manera que corresponda al valor total de los pasajes. 
 
 *** =hint
-- Nombre los objetos con `nhombre`, `nmujer` y `nper`.
+- Nombre los objetos con `nadul`, `nnino` y `total`.
 - Coloque dentro los valores.
 
 *** =pre_exercise_code
@@ -158,23 +158,23 @@ Resuelva el siguiente problema:
 *** =sample_code
 ```{r}
 # Complete el código para realizar lo solicitado
-nhombre <- ____
-nmujer <- ____
-____ <- ____ + ____
+nadul <- ____
+nnino <- ____
+tot__ <- ____ + ____
 ```
 
 *** =solution
 ```{r}
-nhombre <- 6
-nmujer <- 4
-nper <- nhombre + nmujer
+nadul <- 10
+nnino <- 5
+total <- 0.5 * nadul + 0.15 * nnino
 ```
 
 *** =sct
 ```{r}
 msg_undefined = "Debe crear tres objetos."
-msg_incorrect = "El objeto nper es la suma de los otros dos objetos."
-test_object("nper",
+msg_incorrect = "El objeto total es la suma de los otros dos objetos."
+test_object("total",
             undefined_msg = msg_undefined,
             incorrect_msg = msg_incorrect) 
 
