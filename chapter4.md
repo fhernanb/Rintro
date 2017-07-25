@@ -1,6 +1,6 @@
 ---
 title       : Creación de matrices
-description : En esta sección se aprenderá a construir marcos de datos en R.
+description : En esta sección se aprenderá a construir matrices de datos en R.
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:d9f8a52d8c
 ## Matriz cuantitativa

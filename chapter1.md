@@ -1,6 +1,6 @@
 ---
 title       : Introducción
-description : En esta sección.
+description : En esta sección se explica la mecánica del curso.
 
 
 --- type:VideoExercise lang:r xp:50 skills:1 key:2732a01bb6
