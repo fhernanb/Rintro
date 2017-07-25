@@ -7,9 +7,15 @@ description : En esta sección se aprenderá a construir marcos de datos en R.
 
 Para crear una matriz se usa la función `matrix(data, nrow, ncol, byrow=FALSE)`. En el parámetro `data` se coloca el vector con los datos, en los parámetros `nrow` y `ncol` se indica el número de filas y columnas de la matriz requerida, en `byrow` se indica si el vector de datos ingresa llenando la matriz por filas o columnas, por defecto el parámetro es `byrow=FALSE`.
 
-Ejemplo: para construir una matriz llamada `mat1` de 2 filas y 2 columnas y que contenga los números 4, 3, -5, 6 e ingresando la información por filas se usa el siguiente código.
+__Ejemplo:__ Para construir una matriz llamada `mat1` de 2 filas y 2 columnas y que contenga los números 4, 3, -5, 6 e ingresando la información por filas se usa el siguiente código.
 
-`mat1 <- matrix(data=c(4, 3, -5, 6), ncol=2, byrow=TRUE)`
+```{r}
+mat1 <- matrix(data=c(4, 3, -5, 6), ncol=2, byrow=TRUE)
+mat1
+     [,1] [,2]
+[1,]    4    3
+[2,]   -5    6
+```
 
 *** =instructions
 Resuelva el siguiente problema:
@@ -54,7 +60,7 @@ success_msg("Excelenteee!")
 
 Para crear una matriz con valores lógicos se usa la misma función `matrix` explicada anteriormente pero ingresando en el parámetro `data` un vector lógico.
 
-Ejemplo: para construir una matriz llamada `mat3` de 2 filas y 2 columnas tal que los elementos de la primera columna sean `FALSE` y los restantes sean `TRUE` se utiliza el siguiente código.
+__Ejemplo:__ Para construir una matriz llamada `mat3` de 2 filas y 2 columnas tal que los elementos de la primera columna sean `FALSE` y los restantes sean `TRUE` se utiliza el siguiente código.
 
 `mat3 <- matrix(data=c(FALSE, FALSE, TRUE, TRUE), ncol=2, byrow=FALSE)`
 
