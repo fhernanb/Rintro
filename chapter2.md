@@ -83,9 +83,7 @@ pasaje <- 2000
 num_pasajes <- 5
 total <- pasaje * num_pasajes
 total
-## 10000
 ```
-
 
 *** =instructions
 Resuelva el siguiente problema:
@@ -103,10 +101,10 @@ Resuelva el siguiente problema:
 
 *** =sample_code
 ```{r}
-# Complete el código para realizar lo solicitado
+# Substituya las líneas bajas _____ con el código correcto para completar el ejercicio
 nhombre <- ____
 nmujer <- ____
-____ <- ____ + ____
+____ <- nmujer + ____
 ```
 
 *** =solution
@@ -157,10 +155,10 @@ Resuelva el siguiente problema:
 
 *** =sample_code
 ```{r}
-# Complete el código para realizar lo solicitado
+# Substituya las líneas bajas _____ con el código correcto para completar el ejercicio
 nadul <- ____
 nnino <- ____
-tot__ <- ____ + ____
+tot__ <- nadul * ____ + ____ * 0.15
 ```
 
 *** =solution
