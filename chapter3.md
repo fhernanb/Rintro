@@ -158,14 +158,12 @@ __Pregunta__:
 
 *** =sct
 ```{r}
-# SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
-
 msg_bad <- "Incorrecto, revise bien."
 msg_success <- "Excelente, muy bien."
 test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:086768f1ee
+--- type:MultipleChoiceExercise lang:r xp:10 skills:1 key:4c97d81235
 ## Para extraer elementos de un vector
 
 Para extraer elementos de un vector se usan corchetes `[]` luego del nombre del vector y dentro de ellos se coloca un vector con las posiciones de interés.
@@ -180,42 +178,25 @@ Si queremos extraer los personajes que están en las posiciones 1, 4 y 5 se escr
 ```{r}
 jugador[c(1, 4, 5)]
 ```
+__Pregunta__:
+¿Cuál de las siguientes instrucciones permite elegir los elementos 2, 3 y 5 del vector `jugador`?
 
 *** =instructions
-Resuelva el siguiente problema:
-
-- Construya un vector llamado `pares` con los primeros cinco números pares positivos: 2, 4, 6, 8 y 10.
-- 
+- `jugador(c(2, 3, 5))`.
+- `jugador[c('dos', 'tres', 'cinco')]`.
+- `jugador[2, 3, 5]`.
+- `jugador[c(2, 3, 5)]`.
 
 *** =hint
-- Use `c()` para crear el vector.
-- Nombre al vector con `futbol`.
-- Use `TRUE` o `FALSE`.
-
 
 *** =pre_exercise_code
 ```{r}
 
 ```
 
-*** =sample_code
-```{r}
-# Substituya las líneas bajas ___ con el código correcto para completar el ejercicio
-__ <- c(__, __, __)
-```
-
-*** =solution
-```{r}
-futbol <- c(TRUE, FALSE, TRUE)
-```
-
 *** =sct
 ```{r}
-msg_undefined = "Revise si usó el nombre `futbol` para el vector."
-msg_incorrect = "Revise si ingresó bien los datos usando `TRUE` o `FALSE`."
-test_object("futbol",
-            undefined_msg = msg_undefined,
-            incorrect_msg = msg_incorrect) 
-
-success_msg("Excelenteee!")
+msg_bad <- "Incorrecto, revise bien."
+msg_success <- "Excelente, muy bien."
+test_mc(correct = 4, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 ```
