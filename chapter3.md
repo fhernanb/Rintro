@@ -123,7 +123,7 @@ Resuelva el siguiente problema:
 *** =sample_code
 ```{r}
 # Substituya las líneas bajas ___ con el código correcto para completar el ejercicio
-__ <- c(______)
+__ <- c(__, __, __)
 ```
 
 *** =solution
