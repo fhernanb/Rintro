@@ -25,7 +25,7 @@ description : En esta sección se aprenderá a construir marcos de datos en R.
 
 msg_bad <- "Incorrecto, revise nuevamente el video."
 msg_success <- "Excelente, muy bien."
-test_mc(correct = 4, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
+test_mc(correct = 4, feedback_msgs = c(msg_bad, msg_bad, msg_bad, msg_success))
 ```
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:d9f8a52d8c

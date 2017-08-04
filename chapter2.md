@@ -24,7 +24,7 @@ __Pregunta__: El código correcto para restarle 10 al número 12.56 y para multi
 
 msg_bad <- "Incorrecto, revise bien."
 msg_success <- "Excelente, muy bien."
-test_mc(correct = 3, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
+test_mc(correct = 3, feedback_msgs = c(msg_bad, msg_bad, msg_success, msg_bad))
 ```
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:d9f8a52d8c

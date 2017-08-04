@@ -198,7 +198,7 @@ __Pregunta__:
 ```{r}
 msg_bad <- "Incorrecto, revise bien."
 msg_success <- "Excelente, muy bien."
-test_mc(correct = 4, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
+test_mc(correct = 4, feedback_msgs = c(msg_bad, msg_bad, msg_bad, msg_success))
 ```
 --- type:MultipleChoiceExercise lang:r xp:10 skills:1 key:7c404128ce
 ## Para eliminar elementos de un vector
@@ -235,5 +235,5 @@ __Pregunta__:
 ```{r}
 msg_bad <- "Incorrecto, revise bien."
 msg_success <- "Excelente, muy bien."
-test_mc(correct = 3, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
+test_mc(correct = 3, feedback_msgs = c(msg_bad, msg_bad, msg_success, msg_bad))
 ```

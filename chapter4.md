@@ -107,6 +107,7 @@ test_object("mat4",
 
 success_msg("Excelenteee!")
 ```
+
 --- type:MultipleChoiceExercise lang:r xp:10 skills:1 key:7c404128ce
 ## Para extraer columnas o filas de una matriz
 
@@ -115,27 +116,19 @@ Para extraer ciertas filas o columnas de una matriz llamada `mat` se usa la sigu
 __Ejemplo:__ Supongamos que se tiene ya construída la matriz `mat` con 6 filas y 7 columnas. Si se desea de la matriz `mat`...
 
 - extraer la fila 2 de se usa: `mat[2, ]`.
-- extraer la fila 2 y 4 se usa: `mat[c(2, 4), ]`.
+- extraer las filas 2 y 4 se usa: `mat[c(2, 4), ]`.
 - extraer la columna 3 se usa: `mat[, 3]`.
-- extraer la columna 1 y 6 se usa: `mat[, c(1, 6)]`.
+- extraer las columnas 1 y 6 se usa: `mat[, c(1, 6)]`.
 - extraer las filas 2 y 4 con las columnas 1 y 5 de se usa: `mat[c(2, 4), c(1, 5)]`.
 
-```{r}
-personaje <- c('Marge', 'Homer', 'Lisa', 'Apu', 'Bart')
-```
-Si queremos eliminar a Homer y Bart del vector entonces se escribe el siguiente código:
-
-```{r}
-personaje[-c(2, 5)]
-```
 __Pregunta__:
-¿Cuál de las siguientes instrucciones permite eliminar los elementos 1 y 5 del vector `personaje`?
+¿Cuál de las siguientes instrucciones permite extraer de la matriz `mat` las filas 1, 3 y 5 con las columnas 2 y 4?
 
 *** =instructions
-- `personaje[-1, -5]`.
-- `personaje[-c(1; 5)]`.
-- `personaje[-c(1, 5)]`.
-- `personaje[+c(1, 5)]`.
+- `mat[c(1, 3, 5), c(2, 4)]`.
+- `mat[c(2, 4), c(1, 3, 5)]`.
+- `mat(c(1, 3, 5), c(2, 4))`.
+- `mat{c(1, 3, 5), c(2, 4)}`.
 
 *** =hint
 
@@ -148,5 +141,5 @@ __Pregunta__:
 ```{r}
 msg_bad <- "Incorrecto, revise bien."
 msg_success <- "Excelente, muy bien."
-test_mc(correct = 3, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
+test_mc(correct = 1, feedback_msgs = c(msg_success, msg_bad, msg_bad, msg_bad))
 ```
