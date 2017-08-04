@@ -201,7 +201,7 @@ msg_success <- "Excelente, muy bien."
 test_mc(correct = 4, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 ```
 --- type:MultipleChoiceExercise lang:r xp:10 skills:1 key:7c404128ce
-## Para extraer elementos de un vector
+## Para eliminar elementos de un vector
 
 Para eliminar elementos de un vector se debe colocar un signo menos al vector de posiciones.
 
