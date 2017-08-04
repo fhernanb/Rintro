@@ -164,3 +164,56 @@ msg_bad <- "Incorrecto, revise bien."
 msg_success <- "Excelente, muy bien."
 test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 ```
+
+--- type:NormalExercise lang:r xp:100 skills:1 key:086768f1ee
+## Para extraer elementos de un vector
+
+Para extraer elementos de un vector se usan corchetes `[]` luego del nombre del vector y dentro de ellos se coloca un vector con las posiciones de interés.
+
+__Ejemplo:__ Supongamos que se tiene construído el vector `jugador` de la siguiente forma.
+```{r}
+jugador <- c('Marge', 'Homer', 'Lisa', 'Apu', 'Bart', 'Moe')
+```
+Si queremos extraer los personajes que están en las posiciones 1, 4 y 6 se escribe el siguiente código:
+```{r}
+jugador[c(1, 4, 6)]
+```
+
+*** =instructions
+Resuelva el siguiente problema:
+
+- A tres personas se les preguntó si gustaban del fútbol, la primera y tercera respondieron que __si__ mientras que la segunda dijo que __no__.
+- Construya un vector llamado `futbol` que contenga las tres respuestas.
+
+*** =hint
+- Use `c()` para crear el vector.
+- Nombre al vector con `futbol`.
+- Use `TRUE` o `FALSE`.
+
+
+*** =pre_exercise_code
+```{r}
+
+```
+
+*** =sample_code
+```{r}
+# Substituya las líneas bajas ___ con el código correcto para completar el ejercicio
+__ <- c(__, __, __)
+```
+
+*** =solution
+```{r}
+futbol <- c(TRUE, FALSE, TRUE)
+```
+
+*** =sct
+```{r}
+msg_undefined = "Revise si usó el nombre `futbol` para el vector."
+msg_incorrect = "Revise si ingresó bien los datos usando `TRUE` o `FALSE`."
+test_object("futbol",
+            undefined_msg = msg_undefined,
+            incorrect_msg = msg_incorrect) 
+
+success_msg("Excelenteee!")
+```
