@@ -36,7 +36,7 @@ Resuelva el siguiente problema:
 *** =sample_code
 ```{r}
 # Escriba a continuacion la matriz mat2 con los valores 4, 3, 6, 0, 8, 9
-mat2 <- ___________
+mat2 <- matrix(___)
 ```
 
 *** =solution
@@ -107,4 +107,40 @@ test_object("mat4",
 
 success_msg("Excelenteee!")
 ```
+--- type:MultipleChoiceExercise lang:r xp:10 skills:1 key:7c404128ce
+## Para extraer columnas o filas de una matriz
 
+Para extraer ciertas filas o columnas de una matriz llamada `mat` se usa la siguiente estructura: `mat[vector_filas, vector_colum]`.
+
+__Ejemplo:__ Supongamos que se tiene construído el vector `personaje` de la siguiente forma.
+
+```{r}
+personaje <- c('Marge', 'Homer', 'Lisa', 'Apu', 'Bart')
+```
+Si queremos eliminar a Homer y Bart del vector entonces se escribe el siguiente código:
+
+```{r}
+personaje[-c(2, 5)]
+```
+__Pregunta__:
+¿Cuál de las siguientes instrucciones permite eliminar los elementos 1 y 5 del vector `personaje`?
+
+*** =instructions
+- `personaje[-1, -5]`.
+- `personaje[-c(1; 5)]`.
+- `personaje[-c(1, 5)]`.
+- `personaje[+c(1, 5)]`.
+
+*** =hint
+
+*** =pre_exercise_code
+```{r}
+
+```
+
+*** =sct
+```{r}
+msg_bad <- "Incorrecto, revise bien."
+msg_success <- "Excelente, muy bien."
+test_mc(correct = 3, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
+```
