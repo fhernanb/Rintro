@@ -29,7 +29,7 @@ Resuelva el siguiente problema:
 *** =sample_code
 ```{r}
 # Substituya las líneas bajas ___ con el código correcto para completar el ejercicio
-nher <- c(_, _, _)
+nher <- c(___, ___, ___)
 ```
 
 *** =solution
@@ -74,8 +74,8 @@ Resuelva el siguiente problema:
 
 *** =sample_code
 ```{r}
-# Escriba a continuacion el vector pasatiempo con las respuestas
-pasatiempo <- c(   ,    ,    )
+# Substituya las líneas bajas ___ con el código correcto para completar el ejercicio
+pasatiempo <- c(___, ___, ___)
 ```
 
 *** =solution
@@ -122,8 +122,8 @@ Resuelva el siguiente problema:
 
 *** =sample_code
 ```{r}
-# Escriba a continuacion el vector futbol con las respuestas
-
+# Substituya las líneas bajas ___ con el código correcto para completar el ejercicio
+__ <- c(______)
 ```
 
 *** =solution
