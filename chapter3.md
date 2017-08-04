@@ -168,24 +168,24 @@ test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 
 Para extraer elementos de un vector se usan corchetes `[]` luego del nombre del vector y dentro de ellos se coloca un vector con las posiciones de interés.
 
-__Ejemplo:__ Supongamos que se tiene construído el vector `jugador` de la siguiente forma.
+__Ejemplo:__ Supongamos que se tiene construído el vector `personaje` de la siguiente forma.
 
 ```{r}
-jugador <- c('Marge', 'Homer', 'Lisa', 'Apu', 'Bart')
+personaje <- c('Marge', 'Homer', 'Lisa', 'Apu', 'Bart')
 ```
 Si queremos extraer los personajes que están en las posiciones 1, 4 y 5 se escribe el siguiente código:
 
 ```{r}
-jugador[c(1, 4, 5)]
+personaje[c(1, 4, 5)]
 ```
 __Pregunta__:
-¿Cuál de las siguientes instrucciones permite elegir los elementos 2, 3 y 5 del vector `jugador`?
+¿Cuál de las siguientes instrucciones permite elegir los elementos 2, 3 y 5 del vector `personaje`?
 
 *** =instructions
-- `jugador(c(2, 3, 5))`.
-- `jugador[c('dos', 'tres', 'cinco')]`.
-- `jugador[2, 3, 5]`.
-- `jugador[c(2, 3, 5)]`.
+- `personaje(c(2, 3, 5))`.
+- `personaje[c('dos', 'tres', 'cinco')]`.
+- `personaje[2, 3, 5]`.
+- `personaje[c(2, 3, 5)]`.
 
 *** =hint
 
@@ -199,4 +199,41 @@ __Pregunta__:
 msg_bad <- "Incorrecto, revise bien."
 msg_success <- "Excelente, muy bien."
 test_mc(correct = 4, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
+```
+--- type:MultipleChoiceExercise lang:r xp:10 skills:1 key:7c404128ce
+## Para extraer elementos de un vector
+
+Para eliminar elementos de un vector se debe colocar un signo menos al vector de posiciones.
+
+__Ejemplo:__ Supongamos que se tiene construído el vector `personaje` de la siguiente forma.
+
+```{r}
+personaje <- c('Marge', 'Homer', 'Lisa', 'Apu', 'Bart')
+```
+Si queremos eliminar a Homer y Bart del vector entonces se escribe el siguiente código:
+
+```{r}
+personaje[-c(2, 5)]
+```
+__Pregunta__:
+¿Cuál de las siguientes instrucciones permite eliminar los elementos 1 y 5 del vector `personaje`?
+
+*** =instructions
+- `personaje[-1, -5]`.
+- `personaje[-c(1; 5)]`.
+- `personaje[-c(1, 5)]`.
+- `personaje[+c(1, 5)]`.
+
+*** =hint
+
+*** =pre_exercise_code
+```{r}
+
+```
+
+*** =sct
+```{r}
+msg_bad <- "Incorrecto, revise bien."
+msg_success <- "Excelente, muy bien."
+test_mc(correct = 3, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 ```
