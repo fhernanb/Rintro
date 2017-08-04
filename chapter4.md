@@ -112,7 +112,13 @@ success_msg("Excelenteee!")
 
 Para extraer ciertas filas o columnas de una matriz llamada `mat` se usa la siguiente estructura: `mat[vector_filas, vector_colum]`.
 
-__Ejemplo:__ Supongamos que se tiene construído el vector `personaje` de la siguiente forma.
+__Ejemplo:__ Supongamos que se tiene ya construída la matriz `mat` con 6 filas y 7 columnas.
+
+- Para extraer la fila 2 de `mat` se usa: `mat[2, ]`.
+- Para extraer la columna 3 de `mat` se usa: `mat[, 3]`.
+- Para extraer la fila 2 de `mat` se usa: `mat[2, ]`.
+- Para extraer la fila 2 de `mat` se usa: `mat[2, ]`.
+- Para extraer la fila 2 de `mat` se usa: `mat[2, ]`.
 
 ```{r}
 personaje <- c('Marge', 'Homer', 'Lisa', 'Apu', 'Bart')
