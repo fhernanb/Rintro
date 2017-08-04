@@ -184,7 +184,7 @@ jugador[c(1, 4, 5)]
 *** =instructions
 Resuelva el siguiente problema:
 
-- Construya un vecto llamado `pares` con los primeros cinco múltiplos positivos de 3.
+- Construya un vector llamado `pares` con los primeros cinco números pares positivos: 2, 4, 6, 8 y 10.
 - 
 
 *** =hint
