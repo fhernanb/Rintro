@@ -171,19 +171,21 @@ test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 Para extraer elementos de un vector se usan corchetes `[]` luego del nombre del vector y dentro de ellos se coloca un vector con las posiciones de interés.
 
 __Ejemplo:__ Supongamos que se tiene construído el vector `jugador` de la siguiente forma.
+
 ```{r}
-jugador <- c('Marge', 'Homer', 'Lisa', 'Apu', 'Bart', 'Moe')
+jugador <- c('Marge', 'Homer', 'Lisa', 'Apu', 'Bart')
 ```
-Si queremos extraer los personajes que están en las posiciones 1, 4 y 6 se escribe el siguiente código:
+Si queremos extraer los personajes que están en las posiciones 1, 4 y 5 se escribe el siguiente código:
+
 ```{r}
-jugador[c(1, 4, 6)]
+jugador[c(1, 4, 5)]
 ```
 
 *** =instructions
 Resuelva el siguiente problema:
 
-- A tres personas se les preguntó si gustaban del fútbol, la primera y tercera respondieron que __si__ mientras que la segunda dijo que __no__.
-- Construya un vector llamado `futbol` que contenga las tres respuestas.
+- Construya un vecto llamado `pares` con los primeros cinco múltiplos positivos de 3.
+- 
 
 *** =hint
 - Use `c()` para crear el vector.
