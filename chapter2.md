@@ -51,7 +51,7 @@ Resuelva el siguiente problema:
 
 *** =sample_code
 ```{r}
-# Substituya las líneas bajas _____ con el código correcto para completar el ejercicio
+# Substituya las líneas bajas ___ con el código correcto para completar el ejercicio
 precioeuro <- _____
 ```
 
@@ -101,7 +101,7 @@ Resuelva el siguiente problema:
 
 *** =sample_code
 ```{r}
-# Substituya las líneas bajas _____ con el código correcto para completar el ejercicio
+# Substituya las líneas bajas ___ con el código correcto para completar el ejercicio
 nhombre <- ____
 nmujer <- ____
 ____ <- nmujer + ____
@@ -155,7 +155,7 @@ Resuelva el siguiente problema:
 
 *** =sample_code
 ```{r}
-# Substituya las líneas bajas _____ con el código correcto para completar el ejercicio
+# Substituya las líneas bajas ___ con el código correcto para completar el ejercicio
 nadul <- ____
 nnino <- ____
 tot__ <- nadul * ____ + ____ * 0.15
