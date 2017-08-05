@@ -2,6 +2,12 @@
 title       : Creación de vectores
 description : En esta sección se aprenderá a construir vectores en R.
 
+--- type:VideoExercise lang:r xp:50 skills:1 key:2732a01bb6
+## ¿Qué es un vector?
+
+*** =video_link
+//player.vimeo.com/video/228447779
+
 --- type:NormalExercise lang:r xp:100 skills:1 key:d9f8a52d8c
 ## Vector numérico o cuantitativo
 
