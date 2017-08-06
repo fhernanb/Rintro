@@ -12,10 +12,6 @@ author_bio: Next to being the main developer of DataCamp's interactive courses, 
   <br><br>This course is a rework of the earlier introduction to R course,
   built by Jonathan Cornelissen and Martijn Theuwissen, co-founders of DataCamp. The
   course now features video lectures, challenges, and a chapter on graphics.
-description: With over 2 million users worldwide R is rapidly becoming the leading
-  programming language in statistics and data science. Every year, the number of R
-  users grows by 40%, and an increasing number of organizations are using it in their
-  day-to-day activities.<br>In this introduction to R, you will master the basics
-  of this beautiful open source language such as factors, lists and data frames. With
-  the knowledge gained in this course, you will be ready to undertake your first very
-  own data analysis.
+description: R es un lenguage de programación muy útil para realizar diversos análisis estadísticos,
+ aprender a manejar este lenguaje es fundamental para estudiantes de estadística, ingeniería entre
+ otros. En este curso se explican cuales son los objetos básicos en R y la forma de crearlos.
