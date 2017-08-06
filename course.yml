@@ -14,4 +14,5 @@ author_bio: Next to being the main developer of DataCamp's interactive courses, 
   course now features video lectures, challenges, and a chapter on graphics.
 description: R es un lenguage de programación muy útil para realizar diversos análisis estadísticos,
  aprender a manejar este lenguaje es fundamental para estudiantes de estadística, ingeniería entre
- otros. En este curso se explican cuales son los objetos básicos en R y la forma de crearlos.
+ otros. En este curso se da una introducción a R y se explican cuales son los objetos básicos del lenguaje
+ y la forma para crear estos objetos.
