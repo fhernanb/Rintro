@@ -20,8 +20,27 @@ Aquí se da la bienvendida.
 *** =part1
 1. Instalación de R.
 2. Instalación de Rstudio.
-3. Operaciones en R.
-4. 
+3. Operaciones básicas y asignación.
+4. Creación de vectores.
+5. Creación de matrices.
+6. Creación de arreglos.
+7. Creación de marcos de datos.
+8. Creación de listas.
 
 *** =script
+
+
+
+
+--- type:TwoColumns key:2c913ed72c
+## hola
+
+*** =part1
+uno
+
+*** =part2
+dos
+
+*** =script
+tres
 
