@@ -14,12 +14,14 @@ title: Instructor UNAL
 Aquí se da la bienvendida.
 
 
---- type:TwoColumns key:a4a743a52c
-## Contenido
+--- type:FullSlide key:1c0980f6fa
+## Contenido del curso
 
 *** =part1
-
-*** =part2
+1. Instalación de R.
+2. Instalación de Rstudio.
+3. Operaciones en R.
+4. 
 
 *** =script
 
