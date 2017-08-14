@@ -7,6 +7,6 @@ description : En esta sección se explica la mecánica del curso.
 ## Introducción al curso
 
 *** =video_link
-//player.vimeo.com/video/131166872
+//player.vimeo.com/video/229512405
 
 
