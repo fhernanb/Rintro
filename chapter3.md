@@ -35,7 +35,7 @@ Resuelva el siguiente problema:
 *** =sample_code
 ```{r}
 # Substituya las líneas bajas ___ con el código correcto para completar el ejercicio
-nher <- c(___, ___, ___)
+nhe__ <- c(___, ___, ___)
 ```
 
 *** =solution
