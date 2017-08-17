@@ -82,9 +82,9 @@ Resuelva el siguiente problema:
 - Construya una matriz llamada `mat4` de 2 filas y 2 columnas de tal manera que la primera fila contenga dos valores `TRUE` y la segunda fila contenga dos valores `FALSE`.
 
 *** =hint
-- Coloque los valores 4, 3, 6, 0, 8, 9 dentro de `c()` para crear la matriz.
-- Asegúrese de que la matriz se llama `mat1`.
-- Verifique que usó el valor correcto para el parámetro `byrow`.
+- Coloque los valores `TRUE` o `FALSE` dentro de `c()` para crear la matriz.
+- Asegúrese de que la matriz se llama `mat4`.
+- Verifique que usó `byrow=TRUE`.
 
 
 *** =pre_exercise_code
@@ -94,8 +94,8 @@ Resuelva el siguiente problema:
 
 *** =sample_code
 ```{r}
-# Escriba a continuacion la matriz mat1 con los valores 4, 3, 6, 0, 8, 9
-
+# Escriba a continuacion la matriz mat4 con los valores 4, 3, 6, 0, 8, 9
+___ <- __________________
 ```
 
 *** =solution
