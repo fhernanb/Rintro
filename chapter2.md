@@ -41,8 +41,8 @@ Resuelva el siguiente problema:
 
 *** =hint
 - Use `c()` para crear el vector.
-- Nombre al vector con `nherm`.
-- Coloque dentro los valores.
+- Nombre al vector con `precioeuro`.
+- Coloque luego de `<-` el valor solicitado.
 
 *** =pre_exercise_code
 ```{r}
@@ -137,7 +137,6 @@ total <- nhamb * 5 + nrefre * 2
 total
 ## 32
 ```
-
 
 *** =instructions
 Resuelva el siguiente problema:

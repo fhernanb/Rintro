@@ -26,7 +26,6 @@ Resuelva el siguiente problema:
 - Nombre al vector con `nherm`.
 - Coloque dentro los valores.
 
-
 *** =pre_exercise_code
 ```{r}
 
@@ -45,8 +44,8 @@ nherm <- c(2, 0, 3)
 
 *** =sct
 ```{r}
-msg_undefined = "Revise si usó el nombre `futbol` para el vector."
-msg_incorrect = "Revise si ingresó bien los datos usando `TRUE` o `FALSE`."
+msg_undefined = "Revise si usó el nombre `nherm` para el vector."
+msg_incorrect = "Revise si ingresó bien los datos numéricos en el orden indicado."
 test_object("nherm",
             undefined_msg = msg_undefined,
             incorrect_msg = msg_incorrect) 
