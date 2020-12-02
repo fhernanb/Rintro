@@ -1,5 +1,5 @@
 ---
-title       : Operaciones básicas y asignación
+title       : Operaciones básicas y asignación con R
 description : En esta sección usted aprenderá a realizar operaciones aritméticas con R.
 
 --- type:MultipleChoiceExercise lang:r xp:100 skills:1 key:31831a54be
